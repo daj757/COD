@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@font-face { font-family: TenaliRamakrishna-Regular; 
+    src: url('./media/font.ttf'); } 
+
+h1 {
+    font-family: TenaliRamakrishna-Regular;
+    text-align: center;
+    color: white;
+}
+ p {
+    font-family: TenaliRamakrishna-Regular;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+ }
+/* .all {
+    background-image: url('./media/background.jpg');
+    background-size: cover;
+} */
+.video {
+
+    background-color: #5AB9EA;
+    opacity: .8;
+    padding-bottom: 25px;
+    padding-top: 25px
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact {
+    background-color: #C1C8E4;
+    opacity: .8;
+    padding-top: 20px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.divider {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    h1{
+        font-size: 40px;
+       
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
