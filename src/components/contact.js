@@ -5,7 +5,8 @@ const Contact = () => {
  return(
      <div>
          <h1>CONNECT WITH US</h1>
-         <Divider fitted/>
+         <hr/>
+         <p>fdsafsdafsdfafdsfsfdfsadfsafsafs</p>
      </div>
  )
 }

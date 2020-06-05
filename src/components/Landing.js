@@ -8,7 +8,7 @@ const Landing = () => {
     return (
         <div className="main">
         <div className="space"></div>        
-        <div className="text">
+        <div className="text borders">
             <h1>Welcome to The Clinics of David!<br/> We appreciate your time in discovering who we are and what
             sets us apart. <br/>We are The Clinics of David!</h1>
             <p>  

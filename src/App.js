@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import Landing from './components/Landing'
 import Video from './components/Video'
 import Contact from './components/contact'
+import About from './components/About'
 import { Container, Divider } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
@@ -35,6 +36,9 @@ class App extends React.Component {
         <Landing/>
         <div className="video">
         <Video link ={this.state.videoLink}/>
+       </div>
+       <div className="about">
+        <About />
        </div>
        <div className="contact">
         <Contact />

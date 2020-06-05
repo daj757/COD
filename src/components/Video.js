@@ -6,7 +6,7 @@ const Video = (props) => {
     return (
         <Container>
              <h1>WEEKLY PRAYER</h1>
-             <Divider fitted/>
+            <hr/>
             <Embed url = {props.link} />
         </Container>
            
