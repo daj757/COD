@@ -1,5 +1,13 @@
 @font-face { font-family: TenaliRamakrishna-Regular; 
     src: url('./media/font.ttf'); } 
+.listMobile {
+    font-family: TenaliRamakrishna-Regular;
+    margin-left: 55px;
+    padding-bottom: 25px;
+    margin-right: 25px;
+    color: #8860D0
+}
+
 
 .text {
         background: rgba(0, 0, 0, 0.75);
@@ -8,8 +16,8 @@
         padding-right: 3px;
         padding-left: 3px;
         color: white;
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
         padding-bottom: 10px
       }
 
@@ -70,11 +78,17 @@ hr {
     }
     .borders {
         margin-right: 100px;
-        margin-left: 100px
+        margin-left: 100px;
+        margin-top: 50px
+    }
+    .bordersBelow {
+        margin-right: 70px;
+        margin-left: 70px
     }
     .text {
         padding-right: 25px;
-        padding-left: 25px
+        padding-left: 25px;
+        margin-bottom: 30px
       }
       .text p {
         font-size: 22pt
@@ -84,5 +98,8 @@ hr {
       }
       .text h3 {
         font-size: 25pt
+      }
+      .space {
+          padding-bottom: 1px
       }
   }
