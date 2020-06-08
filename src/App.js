@@ -35,13 +35,13 @@ class App extends React.Component {
       <div>
         <Nav/>
         <Landing/>
-        <div className="video">
+        <div className="video" id="Prayer" >
         <Video link ={this.state.videoLink}/>
        </div>
-       <div className="about">
+       <div id="About" className="about">
         <About />
        </div>
-       <div className="contact">
+       <div id="Connect" className="contact">
         <Contact />
        </div>
        <Footer />

@@ -5,6 +5,7 @@
 .nav {
     font-family: TenaliRamakrishna-Regular;
     font-size: 16px;
+    padding: 0px
 }
 
 @media only screen and (min-width: 768px) {
