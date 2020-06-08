@@ -20,14 +20,14 @@ export default class Nav extends Component {
         />
         <Menu.Item
         className="nav" 
-          name='Contact'
-          active={activeItem === 'Contact'}
+          name='Weekly Prayer'
+          active={activeItem === 'Weekly Prayer'}
           onClick={this.handleItemClick}
         />
         <Menu.Item
         className="nav" 
-          name='Rent'
-          active={activeItem === 'rent'}
+          name='Connect with us'
+          active={activeItem === 'Connect with us'}
           onClick={this.handleItemClick}
         />
       </Menu>

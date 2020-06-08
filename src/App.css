@@ -2,10 +2,18 @@
     src: url('./media/font.ttf'); } 
 .listMobile {
     font-family: TenaliRamakrishna-Regular;
-    margin-left: 55px;
+    margin-left: 25px;
     padding-bottom: 25px;
     margin-right: 25px;
     color: #8860D0
+}
+
+.listDesktop {
+    color: #8860D0;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 35px;
+    text-align: center;
 }
 
 
