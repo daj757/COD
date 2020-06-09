@@ -6,7 +6,7 @@ const Contact = () => {
    
  return(
      <div>
-       <h1 id="Connect">CONNECT WITH US</h1>
+       <h1>CONNECT WITH US</h1>
          <hr/>
          <Responsive maxWidth={768}>
          <div className="listMobile">

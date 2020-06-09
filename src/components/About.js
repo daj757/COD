@@ -1,8 +1,9 @@
 import React from 'react'
-import {Grid, Embed} from 'semantic-ui-react'
+import {Embed} from 'semantic-ui-react'
 import './about.css'
 import david from '../media/david.jpg'
 import nasa from '../media/nasa.jpg'
+import logo from '../media/logo.png'
 const About = () => {
  return(
      <div>
@@ -15,9 +16,9 @@ const About = () => {
                 As a result of this, we endeavor to combine treatments of the human body with treatments of the human soul. We believe this system demands clinicians with years of
                 experience of proven quality care, who will fulfill this promise by contributing our undivided attention to your healing.</p>        
                 <p className="name1">1Dr. Alton Marcello</p>
-        <Embed className="interviewVideos video1" icon="plus" url = {"https://fast.wistia.com/embed/medias/gzw034vnlw"} />
+        <Embed placeholder={logo} icon="play circle outline" className="interviewVideos video1"  url = {"https://fast.wistia.com/embed/medias/gzw034vnlw"} />
                 <p className="name2">Dr. Alton Marcello</p>
-         <Embed className="interviewVideos video2" icon="plus" url = {"https://fast.wistia.com/embed/medias/gzw034vnlw"} />
+         <Embed placeholder={logo} icon="play circle outline" className="interviewVideos video2" url = {"https://fast.wistia.com/embed/medias/gzw034vnlw"} />
          </div> 
     <div className="text container bordersBelow">
             <h3>WHY WE ARE DOING THIS?</h3>

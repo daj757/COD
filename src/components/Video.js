@@ -1,5 +1,6 @@
 import React from 'react'
 import {Embed, Container} from 'semantic-ui-react'
+import logo from '../media/logo.png'
 import './video.css'
 const Video = (props) => {
     
@@ -7,7 +8,7 @@ const Video = (props) => {
         <Container >
              <h1>WEEKLY PRAYER</h1>
             <hr/>
-            <Embed icon="plus" url = {props.link} />
+            <Embed placeholder={logo} icon="play circle outline" url = {props.link} />
         </Container>
            
     )
