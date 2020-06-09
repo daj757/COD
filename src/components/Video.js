@@ -1,7 +1,6 @@
 import React from 'react'
 import {Embed, Container} from 'semantic-ui-react'
 import logo from '../media/logo.png'
-import './video.css'
 const Video = (props) => {
     
     return (

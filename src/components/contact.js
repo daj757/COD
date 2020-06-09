@@ -24,13 +24,13 @@ const Contact = () => {
       </List.Content>
     </List.Item>
     <List.Item>
-    <Icon  size="large" name='youtube' />
+    <Icon  className="contactIcon" size="large" name='youtube' />
       <List.Content>
         <List.Header href="https://www.facebook.com/The-Clinics-Of-David-103503817964254" target="_blank">The Clinics of David</List.Header>
       </List.Content>
     </List.Item>
     <List.Item>
-    <Icon size="large" name='mail' />
+    <Icon className="contactIcon" size="large" name='mail' />
       <List.Content>
         <List.Header href="mailto:TheClinicsOfDavid@gmail.com">TheClinicsOfDavid@gmail.com</List.Header>
       </List.Content>

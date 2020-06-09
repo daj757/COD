@@ -15,9 +15,9 @@ const About = () => {
                 We possess years of experience in treating patients. As a result of this experience, we have concluded that the limits placed on patient care can result in limited outcomes.
                 As a result of this, we endeavor to combine treatments of the human body with treatments of the human soul. We believe this system demands clinicians with years of
                 experience of proven quality care, who will fulfill this promise by contributing our undivided attention to your healing.</p>        
-                <p className="name1">1Dr. Alton Marcello</p>
+                <p className="name1">Dr. Marcello</p>
         <Embed placeholder={logo} icon="play circle outline" className="interviewVideos video1"  url = {"https://fast.wistia.com/embed/medias/gzw034vnlw"} />
-                <p className="name2">Dr. Alton Marcello</p>
+                <p className="name2">Joseph Davis, PA</p>
          <Embed placeholder={logo} icon="play circle outline" className="interviewVideos video2" url = {"https://fast.wistia.com/embed/medias/gzw034vnlw"} />
          </div> 
     <div className="text container bordersBelow">
