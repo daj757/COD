@@ -1,4 +1,18 @@
 .footer {
    background-color:#5680E9;
-   padding: 12px;
+   padding: 10px;
+}
+.footer p {
+    font-size: 12px
+}
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        padding: 13px;
+    }
+    .footer p{
+        font-size: 15px;
+    }
+    
+
 }
