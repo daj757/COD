@@ -6,7 +6,7 @@ import nasa from '../media/nasa.jpg'
 import logo from '../media/logo.png'
 const About = () => {
  return(
-     <div>
+     <div id="About">
          <h1>ABOUT US</h1>
          <hr></hr>
     <div className="text container grid-container bordersBelow">
