@@ -1,0 +1,29 @@
+.contactInfo  {
+    font-family: TenaliRamakrishna-Regular;
+    color: #8860D0;  
+    font-size: 30px;
+    margin-bottom: 10px;
+  
+}
+.contactInfo a {
+    padding-left: 15px;
+    color: white
+}
+
+.first {
+    padding-top: 15px
+}
+.icons {
+    color:  #8860D0;
+    
+}
+@media only screen and (min-width: 768px) {
+    .first {
+        padding-top: 0px
+    } 
+    .contactInfo {
+        font-size: 30px;
+        text-align: center
+    }
+}
+

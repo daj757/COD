@@ -37,10 +37,10 @@ class App extends React.Component {
         <Video link ={this.state.videoLink}/>
        </div>
         <Landing/>
-       <div id="About" className="about">
+       <div className="about">
         <About />
        </div>
-       <div id="Connect" className="contact">
+       <div className="contact">
         <Contact />
        </div>
        <Footer />
