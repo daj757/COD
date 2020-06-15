@@ -1,6 +1,11 @@
 .about {
     background-color: black;
 }
+.caption {
+    font-size: 16px;
+    padding-top: 10px
+
+}
 .marcelloImage {
     display: block;
     margin-left: auto;
@@ -39,6 +44,11 @@
         font-size: 30px;
         margin-bottom: 20px;
         margin-top: 0px
+    }
+    .text .caption p {
+        font-size: 20px;
+        padding-top: 15px
+    
     }
 
   }

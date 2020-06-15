@@ -5,6 +5,7 @@ import david from '../media/david.jpg'
 import nasa from '../media/nasa.jpg'
 import logo from '../media/logo.png'
 import doctorMarcello from '../media/marcello.jpg'
+import doctorJoseph from '../media/joseph.jpg'
 const About = () => {
  return(
      <div id="About">
@@ -31,9 +32,14 @@ const About = () => {
                     of Medicine, Dr. Al Marcello continues his excellence in patient care, but he continues to dig deeper in broadening his horizon in obtaining wisdom that will contribute to alleviating the ills that plague his patients now and into the future.</p>
                     </div>
                 </Grid.Column>
-                <Grid.Column>
+                <Grid.Column className="text">
         {/* <Embed placeholder={logo} icon="play circle outline" className="interviewVideos video1"  url = {"https://fast.wistia.com/embed/medias/gzw034vnlw"} /> */}
                 <p className="name">Joseph Davis, PA</p>
+                <img className="marcelloImage" src={doctorJoseph} />
+                <div className="bioText">
+                <p>Joseph graduated with his Bachelor of Science in Molecular Biology with summa cum laude distinctions from the University of Texas at Dallas. He graduated PA school at Texas Tech University Health Science Center. 
+                    After completion of his education, Joseph began working in the Emergency Room and then in Urgent Care. Joseph has a passion for helping others and providing the best patient care he can. In his free time, Joseph loves wood working, crafting, music, and cooking. </p>
+                    </div>
        
                 </Grid.Column>
                 <Grid.Column>
@@ -41,7 +47,8 @@ const About = () => {
             <h3>WHY WE ARE DOING THIS?</h3>
              <p>We believe that human life is enriched when treatment of the human body is combined with treatment of the human soul. We therefore offer a one-stop shop to fulfill this high ideal because we believe it saves time, adds convenience, and enriches the human soul. This contributes to the healing process in a priceless way. Everything that we do is geared towards your healing because we believe in your destiny with vibrancy.</p>
              <img className = "astronautImage" src={nasa} alt="astronaut in space" />
-             <p style={{fontSize: "19px"}}>Who says you can’t fly higher with time?</p>
+             <div className="caption"> <p> Who says you can’t fly higher with time?</p></div>
+           
          </div> 
          </Grid.Column>
          <Grid.Column>

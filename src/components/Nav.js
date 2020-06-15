@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 import './nav.css'
+import logo from '../media/logo.png'
 
 export default class Nav extends Component {
   state = {}
@@ -16,7 +17,7 @@ export default class Nav extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu  fixed={'top'} widths={3} style={{backgroundColor: '#5680E9'}}inverted>
+      <Menu  divided  fixed={'top'} widths={3} style={{backgroundColor: '#5680E9'}}inverted>
          <Menu.Item
          className="nav" 
           name1="About"
@@ -31,7 +32,7 @@ export default class Nav extends Component {
           name='Weekly Prayer'
           active={activeItem === 'Weekly Prayer'}
           onClick={this.handleItemClick}
-        />
+        ><img src={logo}></img></Menu.Item>
        <Menu.Item className="nav" 
           name1="Connect"
           name='Connect with us'
