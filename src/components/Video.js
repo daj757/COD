@@ -7,7 +7,7 @@ const Video = (props) => {
         <div >
              <h1>WEEKLY PRAYER</h1>
             <hr className="underline"/>
-            <Embed className="actualVideo" placeholder={logo} icon="play circle outline" url = {props.link} />
+            <Embed aspectRatio="21:9" className="actualVideo" placeholder={logo} icon="play circle outline" url = {props.link} />
         </div>
            
     )

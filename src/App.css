@@ -81,8 +81,10 @@ hr {
         margin-bottom: 25px
     }
     .actualVideo {
-        margin-left: 100px;
-        margin-right: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
        
     }
     .contactIcon {
